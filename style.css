@@ -180,19 +180,36 @@ p{
 .bottom-items{
     position: relative;
     max-width: 100%;
+    display: inline-flex;
 }
 .bottom-items-left{
+    
     max-width: 50%;
+    
 }
+
+
 .bottom-items-left p{
     font-size: 12px;
     margin-left: 30%;
     color: grey;
+    margin-top: 20px;
+    
+    
 }
 .bottom-items-left p a {
     text-decoration: none;
     color: blue;
+    
+}
+.bottom-items-right {
+    margin-left: 180px;
+    
 }
 
-
+.bottom-items-right a {
+    text-decoration: none;
+    margin: 2px;
+    font-size: 12px;
+}
     
