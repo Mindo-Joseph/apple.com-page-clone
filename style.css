@@ -177,5 +177,22 @@ p{
     height:auto;
     
 }
+.bottom-items{
+    position: relative;
+    max-width: 100%;
+}
+.bottom-items-left{
+    max-width: 50%;
+}
+.bottom-items-left p{
+    font-size: 12px;
+    margin-left: 30%;
+    color: grey;
+}
+.bottom-items-left p a {
+    text-decoration: none;
+    color: blue;
+}
+
 
     
