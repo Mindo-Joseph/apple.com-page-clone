@@ -113,6 +113,13 @@ nav {
   padding: 20px;
   border-left: 1px solid #ddcfcf56;
 }
+.fa-search{
+  padding: 30px;
+  display: flex;
+  justify-content:flex-start;
+  margin-left: 73%;
+  margin-top: 2px;
+}
 
 ul {
   margin-block-start: 1em;
