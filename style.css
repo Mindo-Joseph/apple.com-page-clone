@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: auto;
+  width: 1440px;
+  display: flex;
+}
+
+div {
+  display: block;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 652px;
+  background: url(img/your_verse_hero.jpg) 50% 100% no-repeat;
+}
+
+nav {
+  display: block;
+  width: 75%;
+  height: 36px;
+  margin: 20px auto;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  font-family: 'Lato', sans-serif;
+  border-radius: 4px;
+}
+
+.global-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.globalnav li {
+  display: block;
+  padding-top: 16px;
+  width: 105px;
+  height: 36px;
+  cursor: pointer;
+}
+
+#gn-itunes {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% -178px;
+  border-right: 1px solid #00000056;
+  border-left: 1px solid #ddcfcf56;
+}
+
+#gn-ipad {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% -148px;
+  border-right: 1px solid #00000056;
+  border-left: 1px solid #ddcfcf56;
+}
+
+#gn-iphone {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% -118px;
+  border-right: 1px solid #00000056;
+  border-left: 1px solid #ddcfcf56;
+}
+
+#gn-ipod {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% -88px;
+  border-right: 1px solid #00000056;
+  border-left: 1px solid #ddcfcf56;
+}
+
+#gn-mac {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% -58px;
+  border-right: 1px solid #00000056;
+  border-left: 1px solid #ddcfcf56;
+}
+
+#gn-store {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% -28px;
+  border-right: 1px solid #00000056;
+  border-left: 1px solid #ddcfcf56;
+}
+
+#gn-apple {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position-x: 80%;
+  background-position-y: 2px;
+  border-right: 1px solid #00000056;
+}
+
+#gn-support {
+  background-image: url(https://web.archive.org/web/20140301004259im_/http:/images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% -208px;
+  border-right: 1px solid #00000056;
+  border-left: 1px solid #ddcfcf56;
+}
+
+#search {
+  padding: 20px;
+  border-left: 1px solid #ddcfcf56;
+}
+
+.fa-search {
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 73%;
+  margin-top: 2px;
+  font-size: 11px;
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  z-index: 2;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  display: flex;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+input {
+  position: absolute;
+  top: 23px;
+  width: 106px;
+  height: 23px;
+  border-radius: 12px;
+  border: 1px solid #8b8a8a;
+  box-shadow: inset 0 1px 0 black;
+  background: none;
+  outline: none;
+  padding-left: 20px;
+}
+
+.fa-search::before {
+  content: "\f002";
+}
+
+section {
+  text-align: center;
+  margin-top: 300px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.top,
+.middle,
+.bottom {
+  color: white;
+  margin: auto;
+  padding: 5px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 30;
+}
+
+.top {
+  width: 980px;
+  font-size: 64px;
+}
+
+.middle {
+  width: 980px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.bottom {
+  margin-top: 10px;
+  width: 980px;
+  font-size: 26px;
+}
+
+.services {
+  display: flex;
+}
+
+.stuff {
+  width: 1440px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.stuff a {
+  max-width: 25%;
+  height: auto;
+}
+
+.bottom-items {
+  position: relative;
+  max-width: 100%;
+  display: inline-flex;
+}
+
+.bottom-items-left {
+  max-width: 50%;
+}
+
+.bottom-items-left p {
+  font-size: 12px;
+  margin-left: 30%;
+  color: grey;
+  margin-top: 20px;
+}
+
+.bottom-items-right a {
+  text-decoration: none;
+  margin: 2px;
+  font-size: 12px;
+}
+
+.bottom-items-left p a {
+  text-decoration: none;
+  color: blue;
+}
+
+.bottom-items-right {
+  margin-left: 180px;
+}
+
+.bottom-items-right ul {
+  list-style-type: none;
+}
