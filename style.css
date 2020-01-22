@@ -206,7 +206,7 @@ p {
   align-items: flex-start;
 }
 
-.stuff img {
+.stuff a {
   max-width: 25%;
   height: auto;
 }
