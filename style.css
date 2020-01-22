@@ -232,3 +232,6 @@ p {
 .bottom-items-right {
   margin-left: 180px;
 }
+.bottom-items-right ul {
+    list-style-type: none;
+}
