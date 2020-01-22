@@ -1,15 +1,16 @@
 * {
   box-sizing: border-box;
 }
-body{
+
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
 .container {
   margin: auto;
   width: 1440px;
   display: flex;
-  
 }
 
 div {
@@ -113,12 +114,19 @@ nav {
   padding: 20px;
   border-left: 1px solid #ddcfcf56;
 }
-.fa-search{
+
+.fa-search {
   padding: 30px;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   margin-left: 73%;
   margin-top: 2px;
+  font-size: 11px;
+  color: white;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  z-index: 2;
 }
 
 ul {
@@ -141,15 +149,6 @@ input {
   background: none;
   outline: none;
   padding-left: 20px;
-}
-
-.fa-search {
-  font-size: 11px;
-  color: white;
-  position: absolute;
-  top: -5px;
-  left: 5px;
-  z-index: 2;
 }
 
 .fa-search::before {
