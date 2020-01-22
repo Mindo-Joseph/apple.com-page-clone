@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .container {
   margin: auto;
   width: 1440px;
   display: flex;
+  
 }
 
 div {
